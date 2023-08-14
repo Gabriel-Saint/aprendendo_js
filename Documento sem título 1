@@ -1,0 +1,27 @@
+var escopo global, permite alterações
+let escopo local, não permite alterações 
+const escopo local, não permite alterações
+
+Numeros:
+toFixed(X)-  exibe uma quantidade determinada de casas decimais
+isInteger() - determina se o valor passado é um inteiro
+parseFloat() - converte a string para um número de ponto flutuante
+parseInt()- converte uma string para um número inteiro
+valueOF()- Retorna o valor primitivo contido no objeto
+Math.random() - Retorna um numero aleatório entre dois valores 
+Math.ceil() arredonda para cima
+Math.floor() arredonda para baixo
+Math.round() arrendonada o numero para o inteiro mais proximo
+
+Array:
+ ex: var frutas = ["maçã","banana"];
+ 
+.push("")- adiciona um item ao final do array
+.pop()- remove o ultimo item
+.shift()- remove o inicio do array
+.unshift("")- adiciona ao inicio
+.indexOF("")- procura o indice de um item
+.splice - pesquisar +
+.length -  mostra o tamanho do array ou string
+
+aula18
