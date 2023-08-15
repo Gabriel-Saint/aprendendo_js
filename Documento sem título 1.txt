@@ -25,3 +25,36 @@ Array:
 .length -  mostra o tamanho do array ou string
 
 aula18
+
+orientação a objeto com JS
+
+const classe = {
+
+    atributos:""// separados por virgula 
+
+    medotos(){
+
+    }// separados por virgulas
+
+
+}
+
+acessar um metodo
+
+classe.metodo();
+
+strings, number, boolean e undefined em javascript tem valores imutáveis 
+
+array object function passados por referencias são mutáveis
+
+operadores de comparação
+> maior que 
+< menor que 
+>= 
+<=
+=== igualdade estrita (valor e tipos iguais)
+!== desigualdade estrita.
+== igualdade (de modulo);
+
+operador de comparação de uma linha
+ex
