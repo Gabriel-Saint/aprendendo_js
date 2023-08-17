@@ -56,5 +56,21 @@ operadores de comparação
 !== desigualdade estrita.
 == igualdade (de modulo);
 
-operador de comparação de uma linha
-ex
+iteráveis:
+em javascript são como listas de cois, tipos de dados que voce pode percorrer para acessar cad a elemento um por um
+ex: Array, string,  mapas, conjunto (set), elementos HTML.
+pode ser percorrindo com for of.
+
+loops
+
+for(inicio; condição; iteração){
+
+}
+
+for(const xxx of yyy){
+
+} itera sobre os valores de uma coleção de iteráveis
+
+for(const chave in xxx){
+
+} itera sobre as proproiedades enumeraveis de um objeto
