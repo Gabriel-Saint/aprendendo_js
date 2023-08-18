@@ -1,4 +1,4 @@
-var escopo global, permite alterações
+/*var escopo global, permite alterações
 let escopo local, não permite alterações 
 const escopo local, não permite alterações
 
@@ -74,3 +74,147 @@ for(const xxx of yyy){
 for(const chave in xxx){
 
 } itera sobre as proproiedades enumeraveis de um objeto
+
+função de callback
+
+em resumo uma função de callback é uma funcção que é passada como argumento para outra função
+
+function avisarChef() {
+    console.log("O prato está pronto!");
+}
+
+function cozinhar(callback) {
+    console.log("Cozinhando...");
+    // Simule uma espera de 3 segundos para representar o tempo de cozimento
+    setTimeout(callback, 3000);
+}
+
+cozinhar(avisarChef); // Chama a função "cozinhar" e passa "avisarChef" como callback
+
+IIFE 
+função invocada imendiatamente;
+
+(function() {
+    console.log("Essa é  uma IIFE")
+})();
+
+escopo isolado e evita conflitos
+
+FACTORY FUNCTIONS
+funcçoes fabricas são funçoes que retornam objetos, atua como construtor, permite o encapsulamento
+
+let respeita o escopo da função por isso usando ele torna a variavel privada,
+para torna-la publica deve-se usar : .
+
+Função recursiva
+
+uma função que chama ela mesma, deve-se observar o limite de recursividade ex 1000*/
+
+
+
+Escopo de Variáveis:
+
+var: Escopo global, permite alterações.
+let: Escopo local, permite alterações.
+const: Escopo local, não permite alterações.
+Manipulação de Números:
+
+.toFixed(X): Exibe uma quantidade determinada de casas decimais.
+.isInteger(): Determina se o valor passado é um inteiro.
+parseFloat(): Converte a string para um número de ponto flutuante.
+parseInt(): Converte uma string para um número inteiro.
+.valueOf(): Retorna o valor primitivo contido no objeto.
+Math.random(): Retorna um número aleatório entre dois valores.
+Math.ceil(): Arredonda para cima.
+Math.floor(): Arredonda para baixo.
+Math.round(): Arredonda o número para o inteiro mais próximo.
+Manipulação de Arrays:
+
+.push(""): Adiciona um item ao final do array.
+.pop(): Remove o último item.
+.shift(): Remove o início do array.
+.unshift(""): Adiciona ao início.
+.indexOf(""): Procura o índice de um item.
+.splice: Para pesquisa.
+.length: Mostra o tamanho do array ou string.
+Orientação a Objeto:
+
+javascript
+
+const classe = {
+    atributos: "", // Separados por vírgula
+    metodos() {
+        // Separados por vírgulas
+    }
+};
+Acessar um método:
+
+javascript
+
+classe.metodo();
+Imutabilidade em JavaScript:
+
+Strings, numbers, booleanos e undefined têm valores imutáveis.
+Arrays, objetos e funções passados por referência são mutáveis.
+Operadores de Comparação:
+
+>: Maior que.
+<: Menor que.
+>=: Maior ou igual.
+<=: Menor ou igual.
+===: Igualdade estrita (valor e tipos iguais).
+!==: Desigualdade estrita.
+==: Igualdade (com coerção de tipos).
+Iteráveis:
+
+Em JavaScript, são listas de elementos que podem ser percorridos para acessar cada um individualmente. Exemplos incluem arrays, strings, mapas, conjuntos e elementos HTML. Podem ser percorridos com for...of.
+
+Loops:
+
+for (inicio; condição; iteração) { }
+for (const xxx of yyy) { }: Itera sobre os valores de uma coleção de iteráveis.
+for (const chave in xxx) { }: Itera sobre as propriedades enumeráveis de um objeto.
+Função de Callback:
+
+Uma função de callback é passada como argumento para outra função.
+
+javascript
+Copy code
+function avisarChef() {
+    console.log("O prato está pronto!");
+}
+
+function cozinhar(callback) {
+    console.log("Cozinhando...");
+    setTimeout(callback, 3000);
+}
+
+cozinhar(avisarChef);
+IIFE (Immediately Invoked Function Expression):
+
+Uma função invocada imediatamente para criar um escopo isolado e evitar conflitos.
+
+Factory Functions:
+
+Funções fábricas retornam objetos e permitem encapsulamento. O uso de let torna variáveis privadas, para torná-las públicas use :.
+
+Função Recursiva:
+
+Uma função que chama a si mesma. Deve-se observar o limite de recursividade (ex: 1000).
+
+Funções Geradoras:
+
+Funções geradoras são como fábricas especiais que produzem valores sob demanda, de um em um, pausando e continuando quando necessário.
+
+ex: function* geradora1() {
+    yield 'valor 1';
+    yield 'valor 2';
+    yield 'valor 3';
+}
+
+const g1 = geradora1();
+
+console.log(g1.next().value);
+console.log(g1.next().value);
+console.log(g1.next().value);
+console.log(g1.next());
