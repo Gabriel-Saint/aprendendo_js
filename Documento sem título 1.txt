@@ -23,6 +23,7 @@ Array:
 .indexOF("")- procura o indice de um item
 .splice - pesquisar +
 .length -  mostra o tamanho do array ou string
+delete array[x] -  apaga um elemento de um indice de um array(vai ficar vazio).
 
 aula18
 
@@ -107,10 +108,26 @@ let respeita o escopo da função por isso usando ele torna a variavel privada,
 para torna-la publica deve-se usar : .
 
 Função recursiva
+array avançado
+uma função que chama ela mesma, deve-se observar o limite de recursividade ex 1000
+array.splice( indice, delete, ele1, ele2,ele3)
+nomes.splice(4 idice 4, 1 remove 1 elemento) retorna um array
+array.shift()- remove o primeiro elemento do array e o retorna
+number.MAX_VALUE o numero maior possivel
+array.splice(-1,1) simula pop
+Array começa em 0 em ordem crescente, e em ordem decrescente ele incia por -1
+então o primeiro é 0 asc e -1 desc
+array.push()adiciona alguma coisa no array
+array.shift() remove o primeiro elemento
+array.unshift() adiciona no começo
+array.splice(array.length, 0, ele1,ele2) simula o array push
+array1.concat(array2) une o array
+...spread
+ex: const a3 = [...a1, 'luiz', ...a2, ...[2,21,3]];
 
-uma função que chama ela mesma, deve-se observar o limite de recursividade ex 1000*/
+*/
 
-
+----------------------------------------------------------------------------------------------------------------
 
 Escopo de Variáveis:
 
