@@ -124,6 +124,18 @@ array.splice(array.length, 0, ele1,ele2) simula o array push
 array1.concat(array2) une o array
 ...spread
 ex: const a3 = [...a1, 'luiz', ...a2, ...[2,21,3]];
+=> arrow function, se tiver somente um parametro pode tirar os parenteses ex valor=> {
+}
+se tiver apenas uma linha pode retirar as chaves e o ;  eo return;
+
+toLowerCase(), fica tudo minuscula, 
+endsWith(), termioca com alguma coisa
+
+filter() para fazer uma filtragem dentro de um array
+
+a2= a1.filter(função); não altera o array
+
+map() para modificcar o array
 
 */
 
