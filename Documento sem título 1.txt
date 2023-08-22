@@ -166,6 +166,7 @@ Manipulação de Arrays:
 .indexOf(""): Procura o índice de um item.
 .splice: Para pesquisa.
 .length: Mostra o tamanho do array ou string.
+
 Orientação a Objeto:
 
 javascript
@@ -247,3 +248,19 @@ console.log(g1.next().value);
 console.log(g1.next().value);
 console.log(g1.next().value);
 console.log(g1.next());
+
+filter() para fazer uma filtragem dentro de um array
+
+a2= a1.filter(função); não altera o array
+
+map() para modificcar o array, modidifica o objeto original
+
+reduce para reduzir o array, somar itens etc, deve se observar para o acumulador iniciar com 0,
+ array.reduce( (acumulador, valor, indice, array)=>xxxxxx, 0 ara o acumulador inciar com 0)
+
+ for each, para iterar especificamnete com array
+
+array.forEach(function(valor, indice, array){
+console.log(valo, indice)
+}
+)
