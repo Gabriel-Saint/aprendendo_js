@@ -137,6 +137,38 @@ a2= a1.filter(função); não altera o array
 
 map() para modificcar o array
 
+Objetos em javaScript 
+ podemos acessar os valor pela notação de 
+objeto.chave ou objeto['chave']
+
+criando objeto literal
+
+pessoa1 = {
+chave = 'valor', sepeador por virgulas
+
+
+}
+
+criando pelo construtor 
+
+pessoa1 = new Object();
+pessoa1.nome= 'luiz';
+pessoa1.sobrenome = 'otavio';
+
+para apagar alguma chave basta usar o delete
+
+funçao construtora function Pessoa (nome, sobrenome) {
+}
+ 
+função construtora tem que comecar com letra maiuscula 
+object.freeze(this) -  trava o objeto funciona em array tambem
+
+defineProperty
+
+defineProperties- usar na função construtora para criar get e seter 
+
+object.keys() pode ver todas as chaves como um array
+
 */
 
 ----------------------------------------------------------------------------------------------------------------
