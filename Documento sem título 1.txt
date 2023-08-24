@@ -345,3 +345,22 @@ ex Camiseta.prototype = Object.create(Produto.prototype); -- objeto vazio
 e para o constrtutor nao aparecer o da funçao pai deve- se usar 
 apos o objeto vazio,
 camiseta.prototype.constructor = Camiseta
+
+//factory function - cria obetos
+//função construtora cria classes
+
+// usando o map
+
+const pessoas = [
+	{id: 3, nome: "Maria"},
+	{id: 2, nome: "Maria"},
+	{id: 1, nome: "Maria"},
+];
+
+const novaspessoas = new map();
+for (const pssoa of pessoas){
+	const { id } = pessoa;
+	novasPessoas.set(id, {...pessoa});
+}
+
+console.log(novasPessoas);
