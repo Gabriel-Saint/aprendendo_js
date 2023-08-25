@@ -380,3 +380,14 @@ symbol
 const _velocidade = Symbol()
 
 gera um id aleatoriio para proteger atributos
+
+class ConstroleRemoto {
+
+	constructor(tv){
+	this.tv = tv;
+	this.volume = 0;
+}
+
+}
+
+metodo statico é referente a classe e nao a instancia, 
