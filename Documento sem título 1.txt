@@ -364,3 +364,19 @@ for (const pssoa of pessoas){
 }
 
 console.log(novasPessoas);
+
+
+
+getter e seter 
+
+get:
+set:
+
+getter ja é automaticamente chamado quando  usa o . 
+setter quando usa o = 
+
+symbol
+
+const _velocidade = Symbol()
+
+gera um id aleatoriio para proteger atributos
