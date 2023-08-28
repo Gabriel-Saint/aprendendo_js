@@ -19,13 +19,13 @@ function rand(min, max){
     });
     }
     
-    esperaAi("frase1", rand(1, 3))
+    esperaAi("frase 1", rand(1, 3))
     .then(resposta=>{
         console.log(resposta);
-        return esperaAi('frase2', rand(1, 3))
+        return esperaAi('frase 2', rand(1, 3))
     }).then( resposta=>{
         console.log(resposta);
-        return esperaAi('frase3', rand(1, 3))
+        return esperaAi('frase 3', rand(1, 3))
     }).then(resposta=>{
         console.log(resposta);
     })
