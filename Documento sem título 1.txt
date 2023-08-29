@@ -395,3 +395,22 @@ metodo statico é referente a classe e nao a instancia,
 promise
 
 resolve () oque é passado dentro do resolve é arguemnto para função de callback dentro do .then();
+
+promise.all -- retorna um array com todas as todas as promises nao considera o tempo,  e retona somente o erro
+
+promise.race -- a primeira que resolver ele retorna o valor independe de erro e sim da primeira que for resolvida ou rejeitada
+
+async -- antes da função
+
+async function executa() {
+ 	try {
+	const fase1 = await esperaAi("fase1", rand());
+	const fase2 = await esperaAi("fase2", rand());
+	const fase3 = await esperaAi("fase3", rand());
+	const fase4 = await esperaAi("fase4", rand());
+
+}
+	catch(e){
+	console.log(e);
+}
+}
