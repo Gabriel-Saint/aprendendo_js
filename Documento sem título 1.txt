@@ -391,3 +391,7 @@ class ConstroleRemoto {
 }
 
 metodo statico é referente a classe e nao a instancia, 
+
+promise
+
+resolve () oque é passado dentro do resolve é arguemnto para função de callback dentro do .then();

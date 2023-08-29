@@ -30,3 +30,11 @@ function rand(min, max){
         console.log(resposta);
     })
     .catch()
+
+
+function rand(){
+    const max = 3000;
+    const min = 1000;
+
+    return Math.floor(Math.random()*(max - min)+ min);
+}
