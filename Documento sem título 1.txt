@@ -413,4 +413,3 @@ async function executa() {
 	catch(e){
 	console.log(e);
 }
-}
