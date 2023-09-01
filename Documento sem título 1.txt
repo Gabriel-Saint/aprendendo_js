@@ -413,3 +413,23 @@ async function executa() {
 	catch(e){
 	console.log(e);
 }
+
+webpack webpack-cli regenerator-runtime core@-js@2 -- instalando o webpack pelo node
+
+
+export e import
+ex 
+export{nome as nome1};
+
+
+export const nome
+
+export class 
+ 
+export function
+
+em outro aquivo 
+import { nome1 as nome2} from  'caminho';
+
+
+import * MeuModulo  importa tudo
