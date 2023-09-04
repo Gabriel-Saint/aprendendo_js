@@ -1,0 +1,28 @@
+../ voltar uma
+./ entrar na pasta
+
+__filername
+__dirname
+
+npm init -y para iniciar o npm
+npm install expres --save-dev ////para as dependencias 
+npm install expres --save-prod ////para produçao 
+npm install expres@2.1.0 -- instalar uma versão em especifico
+
+
+2.      .1      .1
+major    minor   patch
+                  
+                   .bugs
+        . funcionalidade
+.quebra de compatibilidade
+^ atualiza somente o minor e o patch
+~ atualiza somente o patch
+quero a versao 4 na ultima versao npm install express@4.x
+npm update atualiza
+
+npm unistall desinstala
+
+npm ls --depth= profundidade das pastas
+
+npm outdated -- verifica oque esta desatuializado
